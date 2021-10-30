@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../components/Header';
-import News from '../components/News';
+import Header from '../components/Header/Header';
+import Topics from '../components/Topics/Topics';
 
 function Home() {
 	return (
 		<body>
 			<Header />
-			<News />
+			<Topics />
 		</body>
 	);
 }

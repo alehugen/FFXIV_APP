@@ -3,11 +3,11 @@ import FFContext from './FFContext';
 
 function FFProvider({children}) {
 
-    const [news, setNews] = useState([]);
+    const [topics, setTopics] = useState([]);
 
 	const contextValue = {
-		news,
-		setNews,
+		topics,
+		setTopics,
 	};
 
 	return (
