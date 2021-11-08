@@ -1,0 +1,18 @@
+import React from "react";
+import '../Songs/Songs.css';
+
+export default function Songs() {
+    return(
+        <div className='songs-box'>
+         <iframe 
+         title='spotify'
+         src="https://open.spotify.com/embed/playlist/4jrohYjsgd7LoX9zSAhpDM" 
+         width="300" 
+         height="1100" 
+         frameborder="0" 
+         allowtransparency="true" 
+         allow="encrypted-media">       
+         </iframe>
+        </div>
+    );
+}
