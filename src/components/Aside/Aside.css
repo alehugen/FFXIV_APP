@@ -1,0 +1,36 @@
+.aside-box {
+  border: outset rgb(206, 171, 129) 0.6vh;
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  height: 50%;
+  margin-right: -45vh;
+  margin-left: 2vh;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  font-family: monospace;
+  text-align: justify;
+}
+
+.aside-box h2 {
+  text-align: center;
+  color: rgb(226, 164, 88);
+  letter-spacing: 0.5vh;
+}
+
+.aside-card {
+  margin: 1.5vh;
+  border: ridge whitesmoke 0.4vh;
+  border-radius: 0.8vh;
+  padding: 0.5vh;
+}
+
+.aside-card a {
+  text-decoration: none;
+  color: rgb(226, 164, 88);
+}
+
+.aside-card p {
+  color: blanchedalmond;
+}
