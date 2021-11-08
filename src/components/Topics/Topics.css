@@ -1,0 +1,47 @@
+.topic-box {
+  display: flex;
+  flex-direction: column;
+  border: solid green 5px;
+  width: 50%;
+  padding: 5vh;
+}
+
+.topic-card {
+  border: ridge whitesmoke 0.8vh;
+  border-radius: 1vh;
+  box-shadow: 10px 5px 5px black;
+  margin: 0.7vh;
+  padding: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  font-family: monospace;
+  width: 60%;
+}
+
+.topic-card img {
+  width: 75%;
+  border: outset bisque 0.5vh;
+  border-radius: 1.5vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topic-card a {
+ text-decoration: none;
+ color: whitesmoke;
+ display: flex;
+ flex-direction: column;
+ gap: 1vh;
+}
+
+.topic-card h2 {
+  text-align: center;
+}
+
+.topic-card p {
+  color: bisque;
+  text-align: justify;
+}
