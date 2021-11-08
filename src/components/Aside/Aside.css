@@ -19,6 +19,11 @@
   letter-spacing: 0.5vh;
 }
 
+.aside-box h3 {
+  text-align: center;
+  color: rgb(226, 164, 88);
+}
+
 .aside-card {
   margin: 1.5vh;
   border: ridge whitesmoke 0.4vh;

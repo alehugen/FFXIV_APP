@@ -24,7 +24,7 @@ function Topics() {
           <img src={ topic.image } alt='topic' />
           <p>{ topic.description }</p>
           </a>
-        </div>).slice(0,11) : null
+        </div>).slice(0,12) : null
       }
     </div>
   )
