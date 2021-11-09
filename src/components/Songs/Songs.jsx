@@ -1,12 +1,14 @@
 import React from "react";
 import '../Songs/Songs.css';
+import hand from '../Songs/hand_icon.gif';
 
 export default function Songs() {
     
 
     return(
-        <div>
-        <div className='songs-box'>
+        <div className='song-box'>
+        <img src={ hand } alt='pointer'/>
+        <div className='songs-card'>
          <iframe 
          title='spotify'
          src="https://open.spotify.com/embed/playlist/4jrohYjsgd7LoX9zSAhpDM" 

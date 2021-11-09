@@ -1,4 +1,29 @@
 .header-box {
   border-bottom: double bisque 0.5vh;
   height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: monospace;
+  padding-bottom: 1em;
+}
+
+img {
+  height: 80%;
+}
+
+.text-box {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(226, 164, 88);
+}
+
+.text-box h1 {
+  margin-bottom: -0.5em;
+  letter-spacing: 0.5em;
+}
+
+.text-box h4 {
+  letter-spacing: 0.2em;
 }

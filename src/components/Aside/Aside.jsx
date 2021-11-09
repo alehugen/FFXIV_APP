@@ -25,7 +25,7 @@ function Aside() {
          <p>Starts: { Date(status.start) } </p>
          <p>End: { Date(status.end) }</p>
          <a href={ status.url } target='_blank' rel="noreferrer">MORE INFO</a>
-        </div>) : null
+        </div>).slice(0, 11) : null
       } 
     </div>
   )
