@@ -1,6 +1,19 @@
-.songs-box {
+.songs-card {
     display: flex;
     height: 50%;
-    flex-direction: column;
-    margin: 2vh 1vh 2vh -40vh;
+    flex-direction: row;
+    margin: 12vh 1vh 2vh -35vh;
 }
+
+.song-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.song-box img {
+   width: 8vh;
+   height: 8vh;
+   margin-right: 15vh;
+   transform: rotate(90deg);
+}
+

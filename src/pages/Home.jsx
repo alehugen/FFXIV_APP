@@ -18,7 +18,7 @@ function Home() {
 		<body>
 			<Header />
 			{
-			  !loading ? <Main /> : <img src={ load } alt='crystal load'/>
+			  !loading ? <Main /> : <div className='loading-box'><img src={ load } alt='crystal load'/></div>
 			}
 			<Footer />
 		</body>

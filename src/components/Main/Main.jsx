@@ -5,6 +5,7 @@ import Songs from "../Songs/Songs";
 import '../Main/Main.css';
 
 export default function Main() {
+
    return(
        <div className='main-box'>
         <Aside />
