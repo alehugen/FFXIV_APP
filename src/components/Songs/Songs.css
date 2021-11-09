@@ -1,8 +1,6 @@
 .songs-box {
-    border: inset rgb(206, 171, 129) 0.7vh;
     display: flex;
-    height: 10%;
-    flex-direction: row;
+    height: 50%;
+    flex-direction: column;
     margin: 2vh 1vh 2vh -40vh;
 }
-

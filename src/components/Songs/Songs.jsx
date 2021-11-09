@@ -2,7 +2,10 @@ import React from "react";
 import '../Songs/Songs.css';
 
 export default function Songs() {
+    
+
     return(
+        <div>
         <div className='songs-box'>
          <iframe 
          title='spotify'
@@ -13,6 +16,7 @@ export default function Songs() {
          allowtransparency="true" 
          allow="encrypted-media">       
          </iframe>
+        </div>
         </div>
     );
 }

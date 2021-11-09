@@ -1,11 +1,12 @@
 import React from 'react';
+import fflogo from '.../images/ff_logo.png'
 import '../Header/Header.css';
 
 function Header() {
 
   return (
     <div className='header-box'>
-      header
+      <img src={ fflogo } alt='ff logo'/>
     </div>
   )
 }
